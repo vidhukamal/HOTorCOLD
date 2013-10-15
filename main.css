@@ -1,0 +1,82 @@
+header{
+     font-style: oblique;
+     font-size: 40px; 
+     
+     color: red;
+     text-align: center;
+     margin: 20px;
+     padding-top:50px;
+     font-weight: 900;
+     letter-spacing: 2px;    
+}
+
+li{
+	/*display: list-item;*/
+	text-align: center;
+	color:#edc70a; 
+	font-size: 100%;
+	font-family: Arial, "MS Trebuchet", sans-serif;
+	font-weight: 500;
+	list-style: none;	
+}
+form {
+	text-align: center;	
+	}
+#user_guess {
+	border-radius: 5px;
+	background-color: white-space: normal;
+	height:40px;
+	width:100px;
+	vertical-align: bottom;
+	font-size: 17px;
+}
+#search{
+	background-color: #ff6666;
+}	
+#buttons{
+	text-align: center;
+	margin:20px;
+	padding:10px;
+	
+	}
+	#container div .newgame
+	{
+	border-radius: 5px;
+	color:green;
+	}
+
+
+#links{
+	text-align: center;
+	display: block;
+	vertical-align: baseline;
+	margin: 0px;
+	bottom:0;
+	width: 100%;
+	border: 1px solid gray;
+	position:absolute;
+	text-decoration: none;
+	color:#ddff66;	
+}	
+#result{
+	text-align: center;
+}
+.foot{
+	text-decoration: none;
+	color:#333333;
+	padding: 10px 20px;
+	background-color:#ddff66;
+	height: 40px;	
+}
+#container{
+	border:2px solid red;
+	width:180px;
+	height:140px;
+	text-align: center;
+	border-radius:10px;
+	margin: 0 auto;
+	padding: 5px;
+}
+body{
+	background-color:red;
+}
