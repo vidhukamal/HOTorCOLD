@@ -6,7 +6,7 @@
 		
 		<title>HOT || COLD</title>
 		
-		<link rel="stylesheet" href="main.css">
+		<link rel="stylesheet" type="text/css" href="main.css">
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>		
 		<script src="code.js" type="text/javascript"></script>
 		
@@ -37,16 +37,18 @@
 					<input type="image" src="arrowbutton.jpg" alt="Submit" width="40" height="40" style="margin: 0">
 				</form>
 			</div>
+		
 			<div id="result">
 				
 			</div>
 		</br>
-			<div id="buttons">
-				<button class="newGame" value="New Game">New Game</button>
-				
+			<div id="game">
+				<input type="button" value="New Game" onclick="reloadPage()">
+				<input type="button" value="I give up!" id="give_up">
 			</div>
 		</div>
-	</div>
+</div>		
+	
 
 			<!--<footer>
 				<div id="links">

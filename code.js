@@ -1,5 +1,6 @@
 $(document).ready(function(){
 	var answer = Math.floor(Math.random()*100);
+	
 	//answer = 47;
 	$('form').on('submit',function(){
 		
@@ -75,10 +76,23 @@ $(document).ready(function(){
 		};*/
 		
 		return false;
-	});
+		});
 	
 	function getSwitchRange(n)
 	{
 		return Math.min(10,Math.floor(n/5));
-	};
+	}
+	
+	$('#give_up').click(function(){
+		$('#result').html("answer is:" + answer);
+		$('body').css('background-color','green');
+		return false;		
+	});
+	
 });
+
+
+	function reloadPage()
+	{		
+		location.reload();
+	}
